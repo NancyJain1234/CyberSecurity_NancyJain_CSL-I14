@@ -1,0 +1,6 @@
+# IoT Telnet Honeypot - Python Dependencies
+# Note: The honeypot core runs on Python 3.8+ Standard Library with zero required external dependencies.
+# The following packages are optional and enhance terminal styling and colors:
+
+colorama>=0.4.6
+

